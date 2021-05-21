@@ -1,0 +1,168 @@
+
+body {
+    background-color: #1F2126; 
+    padding: 10px;
+}
+
+.zellim-logo {
+    position: relative;
+    width: 88px;
+    height: 30px;
+    position: absolute;
+    left: 32px;
+    top: 30px;
+    /* top: calc(50% - 30px/2); */
+}
+
+.zellim-advise {
+    position: absolute;
+    width: 653px;
+    height: 480px;
+    left: calc(50% - 653px/2 - 0.5px);
+    top: calc(50% - 480px/2);
+    background-color: #2f333d;
+
+    align-items: center;
+    padding: 64px;
+
+    border: 1px solid #313643;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+   /* Waiting for the host Approval... */
+    position: static;
+    width: 347px;
+    height: 32px;
+    left: 153px;
+    top: 64px;
+
+    /* title / h2 - 24px SBn */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.2px;
+
+    /* font / dark / high */
+
+    color: #DFDFDF;
+
+}
+
+.title-2 {
+    /* Hang tight! You’ll join the meeting when the host approves your request */
+    position: static;
+    width: 525px;
+    height: 24px;
+    left: 64px;
+    top: 120px;
+
+    /* body / 1 - 16px Rn */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.2px;
+
+    /* font / dark / medium */
+
+    color: #B3B6BC;
+}
+
+.room {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 281px;
+    height: 60px;
+    left: 186px;
+    top: 356px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.room>span {
+    /* You’re about to enter */
+    position: static;
+    width: 153px;
+    height: 24px;
+    left: 64px;
+    top: 0px;
+    /* body / 1 - 16px Rn */
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.2px;
+    /* font / dark / medium */
+    color: #B3B6BC;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.room .url {
+    position: static;
+    width: 281px;
+    height: 28px;
+    left: 0px;
+    top: 32px;
+    /* title / h3 - 20px SBn */
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    letter-spacing: 0.2px;
+    /* font / dark / high */
+    color: #DFDFDF;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
